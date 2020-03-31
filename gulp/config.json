@@ -1,0 +1,40 @@
+{
+  "clean": {
+    "dist": [
+      "dist/"
+    ]
+  },
+  "copy": {
+    "dist": {
+      "src": [
+        "public/fonts/**",
+        "public/images/**",
+        "public/**.ico",
+        "public/manifest.json",
+        "index.js"
+      ],
+      "dest": "dist/"
+    }
+  },
+  "rename": {
+    "dist": {
+      "src": ".env.prod",
+      "dest": "dist/"
+    }
+  },
+  "move": {
+    "dist": {
+      "src": "dist/public/assets/index.html",
+      "dest": "dist/public/"
+    }
+  },
+  "eslint": {
+    "src": [
+      "gulp/**/**.js",
+      "public/**/**.js",
+      "src/**/**.js",
+      "test/**/**.js",
+      "./**.js"
+    ]
+  }
+}
