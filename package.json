@@ -79,7 +79,7 @@
     "webpack-cli": "3.3.11",
     "webpack-dev-server": "3.10.3",
     "webpack-stream": "5.2.1",
-    "webpack-subresource-integrity": "1.4.0"
+    "webpack-subresource-integrity": "1.5.1"
   },
   "engines": {
     "node": ">=12.16.2"
